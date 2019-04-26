@@ -1,0 +1,31 @@
+<!--pages/dataview01/dataview01.wxml-->
+<text>pages/dataview01/dataview01.wxml</text>
+<view wx:for='{{list}}' wx:key='index'>
+  {{item.id}} {{item.name}} {{item.sal}}
+</view>
+<text>修改默认值 item, index</text>
+<view wx:for='{{list}}' wx:for-item='obj' wx-for-index='i' wx:key='i'>
+  {{obj.id}} {{obj.name}} {{obj.sal}}
+</view>
+<text>1</text>
+<text>1</text>
+<text>数值判断</text>
+<view wx:if='{{num == 19}}'>等于19</view>
+<text>数组长度判断</text>
+<view wx:if='{{list.length > 0}}' wx:key='index'>
+  数组长度大于0 数组存在
+</view>
+
+<text>多个条件</text>
+<view wx:if='{{num<10}}'>小鱼10</view>
+<view wx:elif='{{num==10}}'>等于10</view>
+<view wx:else='{{num>10}}'>大于10</view>
+
+<text>购物车</text>
+<view wx:for='{{cart}}' wx:key='index'>
+  {{item.id}}
+  <view wx:if='{{item.count==0}}'>
+    购物车空空, 亲 , 赶紧来购物哦 ~~~ {{item.uid}}
+  </view>
+  <view wx:else>购物车数量 {{item.count}}</view>
+</view>

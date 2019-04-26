@@ -1,0 +1,19 @@
+/* pages/exam02/exam02.wxss */
+
+.container {
+  padding-top: 25px;
+  background-color: #ddd;
+}
+
+.container input {
+  margin-top: 15px;
+  border: 1px solid #eee;
+  padding-left: 12px;
+  font-size: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.font-12 {
+  font-size: 12px;
+}

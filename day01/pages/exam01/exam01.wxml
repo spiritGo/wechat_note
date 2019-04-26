@@ -1,0 +1,11 @@
+<text>this is a hello world</text>
+<view class='container'>
+  <text>微信小程序</text>
+  <image src='/pages/images/21.jpg'></image>
+  <text>表單</text>
+  <form>
+    <input placeholder='用戶名'></input>
+    <input placeholder='密碼'></input>
+    <button>登录</button>
+  </form>
+</view>

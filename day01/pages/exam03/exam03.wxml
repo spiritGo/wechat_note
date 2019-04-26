@@ -1,0 +1,6 @@
+<!--pages/exam03/exam03.wxml-->
+<text>pages/exam03/exam03.wxml</text>
+<view>显示数据</view>
+<view wx:for='{{arr}}' wx:key='index'>{{num1}}{{i}}</view>
+<view>{{arr}}</view>
+<view>{{obj.age}}</view>

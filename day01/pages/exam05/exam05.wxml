@@ -1,0 +1,7 @@
+<!--pages/exam05/exam05.wxml-->
+<text>pages/exam05/exam05.wxml</text>
+<view class='container'>
+  <view wx:for='{{list}}' wx:key='index'>
+    {{item.id}} {{item.name}} {{item.salary}}
+  </view>
+</view>

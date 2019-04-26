@@ -1,0 +1,13 @@
+/* pages/exam01/exam01.wxss */
+
+text[data-id] {
+  margin-left: 6px;
+  width: 60px;
+  display: inline-block;
+  text-align: center;
+  border: 1rpx solid #eee;
+}
+
+view:last-child text[data-id] {
+  border-top: 0;
+}

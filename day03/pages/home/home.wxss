@@ -1,0 +1,33 @@
+/* pages/home/home.wxss */
+
+.slide, .slide swiper, .slide image {
+  width: 100%;
+  height: 390rpx;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid .grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.33333%;
+  height: 200rpx;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+  font-size: 14px;
+  justify-content: center;
+}
+
+.grid .grid-item:nth-child(3n-1) {
+  border-left: 1rpx solid #eee;
+  border-right: 1rpx solid #eee;
+}
+
+.grid .grid-item image {
+  width: 102rpx;
+  height: 102rpx;
+}

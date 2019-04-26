@@ -1,0 +1,29 @@
+/* pages/exam01/exam01.wxss */
+
+.container {
+  border: 1px solid red;
+  text-align: left;
+}
+
+.container input {
+  border: 1px solid #eee;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding-left: 3px;
+  box-sizing: border-box;
+}
+
+.container input::-webkit-input-placeholder {
+  font-size: 14px;
+  color: red;
+}
+
+.container input::-moz-placeholder {
+  font-size: 14px;
+  color: red;
+}
+
+.container image {
+  width: 60px;
+  height: 60px;
+}

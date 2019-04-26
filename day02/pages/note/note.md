@@ -1,0 +1,8 @@
+onLoad
+onReady
+onShow
+onHide
+onUnload
+navigationBarBackgroundColor 顶部导航背景
+navigationBarTitleText 顶部导航文字
+navigationBarTextStyle 导航栏颜色 white or black

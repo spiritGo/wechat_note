@@ -1,0 +1,12 @@
+<!--pages/home/home.wxml-->
+<swiper class='slide' autoplay='{{autoplay}}' interval='{{interval}}' vertical='{{valtical}}'>
+  <swiper-item wx:for='{{list}}' wx:key='index'>
+    <image src='{{item.img_url}}' lazy-load='true' mode='aspectFill'></image>
+  </swiper-item>
+</swiper>
+<view class='grid'>
+  <view class='grid-item' wx:for='{{navlist}}' wx:key='index'>
+    <image src='{{item.img_url}}' lazy-load='true' mode='aspectFill'></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>

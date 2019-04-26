@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/life03/life03",
+    "pages/dataview01/dataview01",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "网易云音乐",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "pages/assets/tabs/home.png",
+        "selectedIconPath": "pages/assets/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "消息",
+        "iconPath": "pages/assets/tabs/message.png",
+        "selectedIconPath": "pages/assets/tabs/message-active.png"
+      }
+    ]
+  }
+}

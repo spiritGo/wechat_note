@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/profile/profile",
+    "pages/message/message",
+    "pages/contact/contact",
+    "pages/exam01/exam01",
+    "pages/exam02/exam02"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff6600",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "pages/assets/tabs/home.png",
+        "selectedIconPath": "pages/assets/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "pages/assets/tabs/message.png",
+        "selectedIconPath": "pages/assets/tabs/message-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "联系人",
+        "iconPath": "pages/assets/tabs/profile.png",
+        "selectedIconPath": "pages/assets/tabs/profile-active.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "电话",
+        "iconPath": "pages/assets/tabs/contact.png",
+        "selectedIconPath": "pages/assets/tabs/contact-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
